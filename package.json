@@ -1,0 +1,25 @@
+{
+  "name": "nodedotjsprojextthree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeydominicorobin/nodedotjsprojextthree.git"
+  },
+  "author": "Rommel Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monkeydominicorobin/nodedotjsprojextthree/issues"
+  },
+  "homepage": "https://github.com/monkeydominicorobin/nodedotjsprojextthree#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0"
+  }
+}
