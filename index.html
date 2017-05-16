@@ -1,9 +1,40 @@
+<html>
+<head>
+        <title>File Metadata Microservice -- Rommel Dominguez</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />        
+<style type="text/css">
+                body{
+                background-image:url('http://unsplash.it/1400/700?image=41');
+                background-repeat:no-repeat;
+                padding:80px 200px 0px 200px;
+                }
+                .block{
+                background:rgba(0,0,0,.3);
+                color:white;
+                width:70%;
+                padding:10px 10px 10px 10px;
+                margin-left:auto;
+                margin-right:auto;
+                border-radius:40px;
+                }
+</style>
+<div class="block">
 <form action="/upload" method="post" enctype="multipart/form-data">    
-        <label for="file">Upload any file</label>
+        <label for="file"><h1>Upload any file</h1></label>
+        <br />
+        <label><h3>File Metadata Microservice</h3></label>
+        <br />
+        <label>by Rommel Dominguez</label>
+        <hr />
         <br />    
         <br />
         <input type="file" id="file" name="file"/>
         <br />
         <br />
-        <input type="submit" value="Upload">
+        <input class="btn btn-primary" type="submit" value="Upload">
 </form>
+</div>
+</body>
+</html>
