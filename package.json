@@ -1,6 +1,10 @@
 {
   "name": "nodedotjsprojextthree",
   "version": "1.0.0",
+  "engines": {
+    "node": "4.7.3",
+    "npm": "2.15.11"
+    },
   "description": "",
   "main": "app.js",
   "scripts": {
