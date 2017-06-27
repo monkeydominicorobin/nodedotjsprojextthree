@@ -7,4 +7,6 @@ File Metadata Microservice
 
 >It doesnt do anything to your file it just lists metadata in JSON format.
 
+>Stylized to the best of my abilities.
+
 
